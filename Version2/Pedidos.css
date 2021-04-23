@@ -1,0 +1,244 @@
+.menu{
+  background-color: rgb(18, 61, 87);
+  height: 55px;
+}
+.menubtn button{
+  background-color: transparent;
+  padding: 18px 30px 5px 30px;
+  color: white;
+  border: none;
+  height: 55px;
+  cursor: pointer;
+  outline: none;
+  transition: all 300ms;
+  font-size: 15px;
+}
+.menubtn button:hover{
+  background-color: rgb(28, 90, 126);
+  height: 55px;
+}
+.logostyle {
+  width: 240px;
+  height: 80px;
+  position:absolute;
+  top: -20px;
+  left: 2%;
+}
+.menubtn button:last-child{
+  position: absolute;
+  left: 90%;
+}
+
+.loginstyle{
+  width: 40%;
+  height: 400px;
+  background-color: rgba(231, 228, 228, 0.863);
+  position: relative;
+  left: 30%;
+  border-radius: 15px;
+  margin-top: 45px;
+}
+.loginstyle h2{
+  margin-top: 35px;
+  margin-left: 165px;
+  padding: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.loginstyle input{
+  border-radius: 8px;
+  position: relative;
+  left: 16%;
+  padding: 13px;
+  margin: 14px;
+  outline: none;
+  width: 300px;
+  border:none;
+}
+.loginstyle input:hover{
+ border: 1px solid rgb(75, 197, 238);
+ 
+}
+.loginstyle .login{
+  background-color: rgb(75, 197, 238);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  position: relative;
+  left: 16%;
+  margin: 13px;
+  width: 300px;
+  color: white;
+  transition: all 300ms;
+}
+.loginstyle .login:hover{
+  background-color: rgb(67, 176, 212);
+  cursor: pointer;
+}
+.loginstyle .create{
+  position: relative;
+  left: 38%;
+  bottom: 370px;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(67, 176, 212);
+  margin-bottom: 0px;
+}
+.loginstyle .create:hover{
+  color: rgb(67, 176, 212);
+  cursor: pointer;
+}
+.container{
+  padding: 2rem;
+}
+.content{
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2{
+  padding: 0px 0 5px 0px;
+}
+.content hr{
+  width: 200px;
+  height: 2px;
+  background-color: rgb(212, 207, 207);
+  position: relative;
+  top: 65px;
+  right: 33%;
+}
+.content p{
+  width: 100%;
+  height: 100%;
+}
+.content-orders{
+  background-color: white;
+  height: 500px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0,0,0,0.274);
+  bottom: 50px;
+}
+.bloc-tabs{
+  display: flex;
+}
+.content-tabs{
+  flex-grow: 1;
+}
+.active-content{
+  display: block;
+}
+.search input{
+  border-radius: 10px;
+  border: 2px solid rgb(42, 93, 124);
+  outline: none;
+  position: relative;
+  left: 50%;
+  bottom: 25px;
+}
+.search input:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.search button{
+  background-color:rgb(70, 187, 226);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 150px;
+  position: relative;
+  left: 51%;
+  bottom: 25px;
+  height: 32px;
+}
+.search button:hover{
+  background-color: rgb(52, 143, 173);
+  cursor: pointer;
+}
+.dropdown{
+  position: relative;
+  left: 5%;
+  top: 5px;
+}
+.content h2{
+  position: relative;
+  left: 8%;
+}
+.result{
+  position: relative;
+  left: 18%;
+  top: 18px;
+  width: 65%;
+  background-color: rgb(220, 240, 250);
+  height: 280px;
+  overflow-y: scroll;
+}
+.result h6{
+  margin: 5px;
+}
+.nameclient{
+  font-size: 15px;
+  margin: 2px;
+  position: relative;
+  left: 5%;
+}
+.desc{
+  position: relative;
+  bottom: 240px;
+  font-size: 15px;
+  left: 5%;
+}
+
+.result hr{
+ position: absolute;
+ right: 10%;
+ top: 95px;
+ width: 80%;
+ background-color: rgb(221, 220, 220);
+}
+.search2 input{
+  border-radius: 10px;
+  border: 2px solid rgb(42, 93, 124);
+  outline: none;
+  position: relative;
+  left: 50%;
+  bottom: 5px;
+}
+.search2 input:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.search2 button{
+  background-color:rgb(70, 187, 226);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 150px;
+  position: relative;
+  left: 51%;
+  bottom: 5px;
+  height: 32px;
+}
+.search2 button:hover{
+  background-color: rgb(52, 143, 173);
+  cursor: pointer;
+}
+.bglogin{
+  background-color: white;
+  width: 1250px;
+  height: 650px;
+  position: relative;
+  bottom: 160px;
+  right: 10%;
+}
